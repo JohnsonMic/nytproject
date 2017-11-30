@@ -16,12 +16,15 @@ h1 {
 	font-size: 30px;
 }
 
-#bottombtn {
+#submitbtn {
 	margin-top:-10px;
 	margin-bottom:20px;
 }
 #article-panel{
+	postion: absolute;
 	background-color:#bfbfbf;
-	text-align: center;
-	margin-bottom:50px;
+	font-weight:bold;
+	font-size: 20px;
+	z-index: 1;
+
 }
