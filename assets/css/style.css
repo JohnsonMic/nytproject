@@ -17,6 +17,11 @@ h1 {
 }
 
 #bottombtn {
-	margin-top:-20px;
+	margin-top:-10px;
 	margin-bottom:20px;
+}
+#article-panel{
+	background-color:#bfbfbf;
+	text-align: center;
+	margin-bottom:50px;
 }
