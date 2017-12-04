@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div clas="col-md-12">
+                <h1><button type="button" class="btn btn-default" aria-label="Left Align">
+  <span id = "glyphicon" class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+</button>New York Times Search</h1>
+                <hr />
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h2><button type="button" class="btn btn-default" aria-label="Left Align">
+  <span id = "glyphicon" class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+</button>Search Parameters</h2>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h4>Search Term:</h4>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1">#</span>
+                <input type="text" class="form-control" id="searchTerm" placeholder="searchTerm" aria-describedby="basic-addon1">
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h4>Number of Records to Retrieve:</h4>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">#</span>
+                    <input type="text" class="form-control" id="numberofRecordstoRetrieve" placeholder="numberofRecordstoRetrieve" aria-describedby="basic-addon1">
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h4>Start Year (Optional):</h4>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">#</span>
+                        <input type="text" class="form-control" id="startYear" placeholder="startYear" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <h4>End Year (Optional):</h4>
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon1">#</span>
+                            <input type="text" class="form-control" id="endYearOptional)" placeholder="endYear" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+
+                    <div id="bottombtn" class="btn-group" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default">Search</button>
+                        <button type="button" class="btn btn-default">Clear Results</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div clsss="col-md-12">
+                <div id="article-panel" class="panel panel-default">
+                    <div class="panel-body">
+                        Top Articles
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script type=text/javascript src="./assets/css/javascript/times.js"></script>
+</body>
+
+</html>
